@@ -2,6 +2,7 @@ package net.terabu.templatemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.terabu.templatemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +12,6 @@ public class TemplateMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//test
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
