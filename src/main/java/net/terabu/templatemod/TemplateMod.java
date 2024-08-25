@@ -11,7 +11,7 @@ public class TemplateMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		//test
 		LOGGER.info("Hello Fabric world!");
 	}
 }
