@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WWW",
-    "WR ",
-    "WWW"
+    "RRR",
+    "RRR",
+    "RRR"
   ],
   "key": {
-    "W": {
-      "tag": "minecraft:logs"
-    },
     "R": {
       "item": "minecraft:redstone"
     }
   },
   "result": {
     "id": "template-mod:ruby",
-    "count": 4
+    "count": 1
   }
 }
